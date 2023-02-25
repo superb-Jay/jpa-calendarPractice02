@@ -14,7 +14,7 @@ public class UserController {
 
     private final UserService userService;
 
-
+//cicd test
     @PostMapping("/users")
     public String insertUser(UserRequest userRequest) {
         return userService.insertUser(userRequest);
